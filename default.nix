@@ -9,7 +9,7 @@ in rustPlatform.buildRustPackage rec {
 
   src = ./.;
 
-  cargoHash = "sha256-bJaWCJ8I3yJcZyLutTlz8/GE8ctFmmQLC8G0yHSUiyk=";
+  cargoHash = "sha256-bMJMQ9HYP7C9BGCSeZkRVh+J0E+p1OPHgKDUlhPIgxI=";
 
   buildInputs = [ ] ++ lib.optionals stdenv.isDarwin [ ];
 
