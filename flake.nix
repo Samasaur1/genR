@@ -1,6 +1,8 @@
 {
   description = "Generate new Factor! puzzles";
 
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
+
   outputs = { nixpkgs, ... }:
     let
       forAllSystems = gen:
